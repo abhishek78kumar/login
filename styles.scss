@@ -1,0 +1,57 @@
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+// Base styling for the whole page
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+// Styling for the image slider
+.image-slider {
+  background-color: #007bff;
+  padding: 20px;
+  border-radius: 5px;
+  min-height: 400px; /* Adjust the min-height as needed */
+}
+
+.carousel-inner {
+  max-height: 300px; /* Adjust the height as needed */
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.carousel-item img {
+  max-height: 100%; /* Set the image height to 100% */
+  width: auto; /* Allow image width to adjust automatically */
+  margin-bottom: 20px; /* Add space between images */
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.7); /* Dark background for caption */
+  color: #fff; /* Caption text color */
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px; /* Add space between caption and image */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 40px;
+  height: 40px;
+}
